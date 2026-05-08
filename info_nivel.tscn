@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://do8a6l06r16cd"]
+
+[ext_resource type="Texture2D" uid="uid://bm57sxv2c6lbm" path="res://icon.svg" id="1_qxyui"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qxyui"]
+size = Vector2(120, 120)
+
+[node name="info-nivel" type="Sprite2D" unique_id=1556682111]
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("1_qxyui")
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="." unique_id=1018409750]
+shape = SubResource("RectangleShape2D_qxyui")

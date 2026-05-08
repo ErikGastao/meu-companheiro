@@ -1,0 +1,37 @@
+[gd_scene format=3 uid="uid://brm56xvl3qpac"]
+
+[ext_resource type="PackedScene" uid="uid://b6n4ihg8u5tsr" path="res://quantificador.tscn" id="1_ug6vc"]
+[ext_resource type="PackedScene" uid="uid://b3ta7lhe34uct" path="res://moeda.tscn" id="2_x88sc"]
+[ext_resource type="PackedScene" uid="uid://do8a6l06r16cd" path="res://info_nivel.tscn" id="3_t2trl"]
+
+[node name="barra-superior" type="Sprite2D" unique_id=618860869]
+metadata/_edit_lock_ = true
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1909664022]
+offset_right = 720.0
+offset_bottom = 92.0
+color = Color(1, 1, 1, 0.50980395)
+
+[node name="quantificador-fome" parent="." unique_id=1488445823 instance=ExtResource("1_ug6vc")]
+position = Vector2(190, 46)
+offset = Vector2(0, 0)
+
+[node name="quantificador-saude" parent="." unique_id=12362243 instance=ExtResource("1_ug6vc")]
+position = Vector2(295, 46)
+offset = Vector2(0, 0)
+
+[node name="quantificador-alegria" parent="." unique_id=1356179718 instance=ExtResource("1_ug6vc")]
+position = Vector2(400, 46)
+offset = Vector2(0, 0)
+
+[node name="quantificador-energia" parent="." unique_id=1341492091 instance=ExtResource("1_ug6vc")]
+position = Vector2(505, 46)
+offset = Vector2(0, 0)
+
+[node name="moeda" parent="." unique_id=180974195 instance=ExtResource("2_x88sc")]
+position = Vector2(63, 45)
+metadata/_edit_lock_ = true
+
+[node name="info-nivel" parent="." unique_id=1556682111 instance=ExtResource("3_t2trl")]
+position = Vector2(674.99994, 41.999996)
+metadata/_edit_lock_ = true

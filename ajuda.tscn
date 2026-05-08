@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://ci0wkbkq3i23b"]
+
+[ext_resource type="Texture2D" uid="uid://bm57sxv2c6lbm" path="res://icon.svg" id="1_fjibv"]
+
+[node name="ajuda" type="TouchScreenButton" unique_id=249618431]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2144943216]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_fjibv")

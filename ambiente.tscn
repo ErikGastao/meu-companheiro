@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://bw6j0nihb4bg4"]
+
+[ext_resource type="PackedScene" uid="uid://b07xu6r3xlel0" path="res://botao_proximo_ambiente.tscn" id="1_kbc1o"]
+[ext_resource type="PackedScene" uid="uid://ci8emdqn7vnon" path="res://botao_anterior_ambiente.tscn" id="2_p68u7"]
+
+[node name="ambiente" type="Sprite2D" unique_id=269770171]
+
+[node name="nome-ambiente" type="Label" parent="." unique_id=1740883560]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -75.0
+offset_top = -21.0
+offset_right = 75.0
+offset_bottom = 21.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "AMBIENTE"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="botao-proximo-ambiente" parent="." unique_id=61856135 instance=ExtResource("1_kbc1o")]
+position = Vector2(-356, -133)
+metadata/_edit_lock_ = true
+
+[node name="botao-anterior-ambiente" parent="." unique_id=4620255 instance=ExtResource("2_p68u7")]
+position = Vector2(-356, -133)
+metadata/_edit_lock_ = true

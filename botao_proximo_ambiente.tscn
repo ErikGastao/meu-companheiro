@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://b07xu6r3xlel0"]
+
+[ext_resource type="Texture2D" uid="uid://bm57sxv2c6lbm" path="res://icon.svg" id="1_73k86"]
+
+[node name="botao-proximo-ambiente" type="TouchScreenButton" unique_id=61856135]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1947591125]
+position = Vector2(518, 135)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("1_73k86")

@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://b3ta7lhe34uct"]
+
+[ext_resource type="Texture2D" uid="uid://bm57sxv2c6lbm" path="res://icon.svg" id="1_7xn1b"]
+
+[node name="moeda" type="Sprite2D" unique_id=180974195]
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("1_7xn1b")

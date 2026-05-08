@@ -1,0 +1,22 @@
+# Godot 4+ specific ignores
+.godot/
+.import/
+.mono/
+export.cfg
+export_presets.cfg
+
+# Build and export outputs
+*.pck
+*.zip
+*.exe
+*.html
+*.wasm
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+
+# Android-specific files
+/android/

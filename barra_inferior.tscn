@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://tyoobmsltc2d"]
+
+[ext_resource type="Texture2D" uid="uid://bm57sxv2c6lbm" path="res://icon.svg" id="1_dcwcf"]
+
+[node name="barra-inferior" type="Sprite2D" unique_id=196701768]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=249803238]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -360.0
+offset_top = -40.0
+offset_right = 360.0
+offset_bottom = 40.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(1, 1, 1, 0.49019608)
+
+[node name="ambiente-interacao" type="Sprite2D" parent="." unique_id=1052625047]
+position = Vector2(-266.00003, -50.000004)
+texture = ExtResource("1_dcwcf")
+
+[node name="ambiente-objeto" type="Sprite2D" parent="." unique_id=832205688]
+position = Vector2(0, -50)
+texture = ExtResource("1_dcwcf")
+
+[node name="loja" type="Sprite2D" parent="." unique_id=2126299021]
+position = Vector2(266.9999, -52)
+texture = ExtResource("1_dcwcf")
