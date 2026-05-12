@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://ci0wkbkq3i23b"]
 
-[ext_resource type="Texture2D" uid="uid://bm57sxv2c6lbm" path="res://icon.svg" id="1_fjibv"]
+[ext_resource type="Texture2D" uid="uid://11a4bpuvcsp4" path="res://images/interrogation.png" id="1_fjibv"]
 
 [node name="ajuda" type="TouchScreenButton" unique_id=249618431]
 

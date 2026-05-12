@@ -1,10 +1,11 @@
 [gd_scene format=3 uid="uid://ci8emdqn7vnon"]
 
-[ext_resource type="Texture2D" uid="uid://bm57sxv2c6lbm" path="res://icon.svg" id="1_wf2fy"]
+[ext_resource type="Texture2D" uid="uid://dhhc7wmf4td3a" path="res://images/angle-right.png" id="1_wf2fy"]
 
 [node name="botao-anterior-ambiente" type="TouchScreenButton" unique_id=4620255]
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=2007105086]
-position = Vector2(194.99998, 134.00002)
+position = Vector2(-4.7683716e-07, 1.1920929e-07)
 scale = Vector2(0.4, 0.4)
 texture = ExtResource("1_wf2fy")
+flip_h = true

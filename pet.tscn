@@ -1,6 +1,8 @@
 [gd_scene format=3 uid="uid://ytw03uyofq61"]
 
-[ext_resource type="Texture2D" uid="uid://bm57sxv2c6lbm" path="res://icon.svg" id="1_34gfr"]
+[ext_resource type="Texture2D" uid="uid://cbwrtuupqt0yg" path="res://images/capivara-normal.png" id="1_34gfr"]
 
 [node name="pet" type="Sprite2D" unique_id=1494729496]
+position = Vector2(-2, 1.0000153)
+scale = Vector2(0.10430888, 0.10430889)
 texture = ExtResource("1_34gfr")

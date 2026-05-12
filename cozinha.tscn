@@ -25,10 +25,9 @@ metadata/_edit_lock_ = true
 position = Vector2(656, 139)
 metadata/_edit_lock_ = true
 
-[node name="pet" parent="." unique_id=1494729496 instance=ExtResource("9_gyjun")]
-position = Vector2(360, 654)
-scale = Vector2(3, 3)
-
 [node name="barra-inferior" parent="." unique_id=196701768 instance=ExtResource("11_gyh07")]
 position = Vector2(359, 1239)
 metadata/_edit_lock_ = true
+
+[node name="pet" parent="." unique_id=1494729496 instance=ExtResource("9_gyjun")]
+position = Vector2(352, 622.99994)
