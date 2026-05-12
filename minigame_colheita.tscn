@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://dk811y04ofpdk"]
+
+[ext_resource type="PackedScene" uid="uid://brm56xvl3qpac" path="res://barra_superior.tscn" id="1_r70pr"]
+[ext_resource type="PackedScene" uid="uid://cv2e3os05hwb3" path="res://pinha.tscn" id="2_f7yjj"]
+[ext_resource type="Texture2D" uid="uid://c31ibyv4eiv8n" path="res://araucaria.png" id="2_qkskw"]
+[ext_resource type="PackedScene" uid="uid://ytw03uyofq61" path="res://pet.tscn" id="3_spfib"]
+
+[node name="minigame-colheita" type="Node2D" unique_id=870903366]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=2038099416]
+offset_left = 1.0
+offset_top = 92.0
+offset_right = 721.0
+offset_bottom = 1278.0
+color = Color(0.49411765, 0.78431374, 0.627451, 1)
+
+[node name="araucaria" type="Sprite2D" parent="." unique_id=693072177]
+position = Vector2(371, 573)
+scale = Vector2(1.3608247, 2.1940994)
+texture = ExtResource("2_qkskw")
+
+[node name="pinha" parent="." unique_id=516773127 instance=ExtResource("2_f7yjj")]
+position = Vector2(433, 160)
+
+[node name="pinha2" parent="." unique_id=1703267425 instance=ExtResource("2_f7yjj")]
+position = Vector2(562, 204)
+
+[node name="pinha3" parent="." unique_id=727355213 instance=ExtResource("2_f7yjj")]
+position = Vector2(249, 186)
+
+[node name="pet" parent="." unique_id=1494729496 instance=ExtResource("3_spfib")]
+position = Vector2(371.00003, 1194)
+scale = Vector2(1.2265626, 1.1484375)
+
+[node name="barra-superior" parent="." unique_id=618860869 instance=ExtResource("1_r70pr")]
