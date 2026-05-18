@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://dwmmm2wqsug1s"]
 
-[ext_resource type="Texture2D" uid="uid://htwybtgn1ktl" path="res://loja.png" id="1_atv0x"]
+[ext_resource type="Texture2D" uid="uid://htwybtgn1ktl" path="res://images/loja.png" id="1_atv0x"]
 
 [node name="loja" type="Sprite2D" unique_id=391200277]
 

@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://tyoobmsltc2d"]
 
-[ext_resource type="Texture2D" uid="uid://bm57sxv2c6lbm" path="res://icon.svg" id="1_dcwcf"]
+[ext_resource type="Texture2D" uid="uid://bm57sxv2c6lbm" path="res://images/icon.svg" id="1_dcwcf"]
 [ext_resource type="PackedScene" uid="uid://dwmmm2wqsug1s" path="res://loja.tscn" id="2_mtc7v"]
 
 [node name="barra-inferior" type="Sprite2D" unique_id=196701768]

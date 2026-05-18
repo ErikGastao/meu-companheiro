@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cv2e3os05hwb3"]
 
-[ext_resource type="Texture2D" uid="uid://w2qfiog1r1up" path="res://pinha.png" id="1_quhoy"]
+[ext_resource type="Texture2D" uid="uid://w2qfiog1r1up" path="res://images/pinha.png" id="1_quhoy"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_quhoy"]
 radius = 38.118237
