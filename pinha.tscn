@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://cv2e3os05hwb3"]
+
+[ext_resource type="Texture2D" uid="uid://w2qfiog1r1up" path="res://pinha.png" id="1_quhoy"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_quhoy"]
+radius = 38.118237
+
+[node name="pinha" type="Area2D" unique_id=516773127]
+
+[node name="sprite" type="Sprite2D" parent="." unique_id=2098563405]
+position = Vector2(-16.124996, 139)
+scale = Vector2(0.11649998, 0.12399997)
+texture = ExtResource("1_quhoy")
+
+[node name="colisao" type="CollisionShape2D" parent="." unique_id=1220986586]
+position = Vector2(-16, 139)
+shape = SubResource("CircleShape2D_quhoy")

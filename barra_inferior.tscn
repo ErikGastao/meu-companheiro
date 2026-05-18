@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://tyoobmsltc2d"]
 
 [ext_resource type="Texture2D" uid="uid://bm57sxv2c6lbm" path="res://icon.svg" id="1_dcwcf"]
+[ext_resource type="PackedScene" uid="uid://dwmmm2wqsug1s" path="res://loja.tscn" id="2_mtc7v"]
 
 [node name="barra-inferior" type="Sprite2D" unique_id=196701768]
 
@@ -26,6 +27,5 @@ texture = ExtResource("1_dcwcf")
 position = Vector2(0, -50)
 texture = ExtResource("1_dcwcf")
 
-[node name="loja" type="Sprite2D" parent="." unique_id=2126299021]
-position = Vector2(266.9999, -52)
-texture = ExtResource("1_dcwcf")
+[node name="loja2" parent="." unique_id=391200277 instance=ExtResource("2_mtc7v")]
+position = Vector2(79, -177)

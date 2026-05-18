@@ -1,5 +1,10 @@
 [gd_scene format=3 uid="uid://dwmmm2wqsug1s"]
 
+[ext_resource type="Texture2D" uid="uid://htwybtgn1ktl" path="res://loja.png" id="1_atv0x"]
+
 [node name="loja" type="Sprite2D" unique_id=391200277]
 
 [node name="TouchScreenButton" type="TouchScreenButton" parent="." unique_id=2073652071]
+position = Vector2(-1.0000001, 26)
+scale = Vector2(0.47119644, 0.5311653)
+texture_normal = ExtResource("1_atv0x")
